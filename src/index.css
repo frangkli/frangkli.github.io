@@ -29,7 +29,7 @@ code {
   height: 26rem;
   width: 26rem;
   border: solid 1 black;
-  border-width: 5px;
+  border-width: 3px;
 }
 
 .offset-border::after {
@@ -39,5 +39,5 @@ code {
   height: 26rem;
   width: 26rem;
   border: solid 1 black;
-  border-width: 5px;
+  border-width: 3px;
 }
