@@ -2,8 +2,8 @@ import React from 'react';
 import profilepic from './assets/profilepic.jpg';
 import resume from './assets/resume.pdf';
 import Button from './components/Button';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons' 
-import { faFile, faEnvelope} from '@fortawesome/free-solid-svg-icons' 
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faFile, faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import './App.css';
 
 function App() {
@@ -12,7 +12,9 @@ function App() {
 
       <div className="flex flex-row items-start justify-start">
 
-        <img className='w-96 mr-20' src={profilepic} alt='profile'/>
+        <div className='mr-20 offset-border'>
+            <img className='w-96 unselectable' src={profilepic} alt='profile'/>
+        </div>
 
         <div className='m-5 font-thin'>
           <h1 className='text-4xl'>Ang Li (Frank)</h1>
