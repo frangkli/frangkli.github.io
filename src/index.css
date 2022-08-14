@@ -41,3 +41,47 @@ code {
   border: solid 1 white;
   border-width: 3px;
 }
+
+@media (max-width: 768px) {
+  .offset-border::before {
+    content: '';
+    position: absolute;
+    transform: translate(-2rem, -2rem);
+    height: 18rem;
+    width: 18rem;
+    border: solid 1 white;
+    border-width: 3px;
+  }
+
+  .offset-border::after {
+    content: '';
+    position: absolute;
+    transform: translate(0rem, -16rem);
+    height: 18rem;
+    width: 18rem;
+    border: solid 1 white;
+    border-width: 3px;
+  }
+}
+
+@media (max-width: 640px) {
+  .offset-border::before {
+    content: '';
+    position: absolute;
+    transform: translate(-2rem, -2rem);
+    height: 15rem;
+    width: 15rem;
+    border: solid 1 white;
+    border-width: 3px;
+  }
+
+  .offset-border::after {
+    content: '';
+    position: absolute;
+    transform: translate(0rem, -13rem);
+    height: 15rem;
+    width: 15rem;
+    border: solid 1 white;
+    border-width: 3px;
+  }
+}
