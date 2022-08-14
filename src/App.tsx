@@ -12,7 +12,7 @@ function App() {
 
       <div className="flex flex-row items-start justify-start">
 
-        <div className='mr-20 offset-border'>
+        <div className='mr-20 offset-border unselectable'>
             <img className='w-96 unselectable' src={profilepic} alt='profile'/>
         </div>
 
