@@ -18,7 +18,7 @@ function App() {
 
         <div className='m-5 font-thin'>
           <h1 className='sm:text-4xl text-2xl'>Ang Li (Frank)</h1>
-          <h2 className='sm:text-xl text-sm mt-5'>Freshman at University of Washington - Seattle, WA</h2>
+          <h2 className='sm:text-xl text-sm mt-5'>Sophomore at University of Washington - Seattle, WA</h2>
           <h2 className='sm:text-xl text-sm mt-1'>Pursuing Bachelor of Science in Computer Science</h2>
           <div className='text-center mt-5 flex'>
             <Button icon={faEnvelope} href='mailto://frankla0203@outlook.com'></Button>
